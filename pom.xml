@@ -145,6 +145,13 @@
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
             </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>test_keys.txt</include>
+                </includes>
+            </resource>
         </resources>
         <plugins>
             <plugin>
